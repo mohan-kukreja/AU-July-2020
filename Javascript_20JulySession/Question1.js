@@ -34,3 +34,42 @@ console.log(mapper);
 
 var ele = arr.pop();
 console.log(ele);
+
+var ele = arr.push(21);
+console.log(arr[arr.length-1]);
+
+var sum = [0, 1, 2, 3].reduce(function (accumulator, currentValue) {
+    return accumulator + currentValue
+  }, 0)
+console.log(sum);
+
+var sum = [0, 1, 2, 3].reduceRight(function (accumulator, currentValue) {
+    return accumulator + currentValue
+  }, 0)
+console.log(sum);
+
+var rev = arr.reverse();
+console.log(rev);
+
+var ele = arr.shift();
+console.log(ele);
+
+var part = arr.slice(1,9);
+console.log(part);
+
+var element = arr.some(function(ele){
+    return ele>4;
+})
+console.log(element);
+
+var st = arr.sort();
+console.log(st);
+
+var spl = arr.splice(2,4);
+console.log(arr);
+
+var string = arr.toString();
+console.log(string);
+
+var un = arr.unshift(9);
+console.log(arr);
