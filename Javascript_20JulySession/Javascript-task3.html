@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>javascript task 3</title>
+</head>
+<body>
+
+<input type="text" name="array" id="array" value="">
+<button onclick="func()">Submit</button>
+
+<h2 id="ans"></h2>
+
+<script>
+    function func(){
+        var ans = document.getElementById("array").value;
+       
+        var arr = ans.split(',');
+        arr =arr.filter(function(val){
+            return val > 10;
+        })
+        ans = arr.sort();
+        var slc = ans.slice(1,5);
+
+
+        console.log(slc);
+    }
+    
+</script>
+
+
+</body>
+</html>
