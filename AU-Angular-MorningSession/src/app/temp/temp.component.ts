@@ -13,11 +13,7 @@ export class TempComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  userName: string = "";
-  @Output() usernameEmitter = new EventEmitter<string>();
-
-  sendname(){
-    this.usernameEmitter.emit(this.userName);
-  }
+ 
+ 
 
 }
