@@ -126,7 +126,7 @@ const Todo = ({navigation}) =>{
                 () => { addTodo(); createTwoButtonAlert(); }
                 }/>
             <Text>{display}</Text>
-
+            <Text>Reload to see changes in todos</Text>
             <TextInput style={Styles.textInputStyle} onChangeText={(todo) => settodoList(todo)} placeholder="Enter todo to delete." />
             <Button title="Delete Todo" onPress={
                 () => { deleteTodo(); createTwoButtonAlert();}
