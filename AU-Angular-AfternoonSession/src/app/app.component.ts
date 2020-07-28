@@ -16,6 +16,8 @@ export class AppComponent implements OnInit {
   delkey = null;
 
   ngOnInit(){ 
+    sessionStorage.setItem('first',JSON.stringify(this.user1));
+    sessionStorage.setItem('first',JSON.stringify(this.user2));
 
   }
  
