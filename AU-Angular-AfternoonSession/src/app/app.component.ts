@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
 
   title = 'AU-Angular-AfternoonSession';
   newUser = {first:'',last:'',age:"",empId:'',city:''};
+  newUser1 = {first:'',last:'',age:"",empId:'',city:''};
   user1 = {first:'Mohan',last:'Kukreja',age:"21",empId:'INT440',city:'Delhi'};
   user2 = {first:'Gaurav',last:'Tiwari',age:"21",empId:'INT420',city:'Delhi'};
   name = [this.user1,this.user2];
@@ -58,15 +59,15 @@ sortUser5 = () =>{
 
 updateUser= () =>{
   let temp = {first:'',last:'',age:"",empId:'',city:''};
-      temp.first = this.newUser.first;
-      temp.last = this.newUser.last;
-      temp.age = this.newUser.age;
-      temp.empId = this.newUser.empId;
-      temp.city = this.newUser.city;
+      temp.first = this.newUser1.first;
+      temp.last = this.newUser1.last;
+      temp.age = this.newUser1.age;
+      temp.empId = this.newUser1.empId;
+      temp.city = this.newUser1.city;
   var num : Number = null;
   for(var i=0;i<this.name.length;i++){
     var obj = this.name[i];
-    if(obj.empId == this.newUser.empId){
+    if(obj.empId == this.newUser1.empId){
       this.name[i] = temp;
       break;
     }
