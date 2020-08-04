@@ -115,6 +115,10 @@ const Todo = ({navigation}) =>{
                }
             }
                
+            const logout = async() =>{
+                await AsyncStorage.clear();
+                navigation.navigate('Login');
+            }
 
 
     
@@ -131,7 +135,9 @@ const Todo = ({navigation}) =>{
             <Button title="Delete Todo" onPress={
                 () => { deleteTodo(); createTwoButtonAlert();}
                 } /> 
-           
+           <Button title="Logout" onPress={
+                () => { logout(); }
+                }></Button>
         </View>
        
 
