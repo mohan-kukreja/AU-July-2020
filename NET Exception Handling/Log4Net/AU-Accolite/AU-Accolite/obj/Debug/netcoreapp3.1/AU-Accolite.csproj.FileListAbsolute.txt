@@ -1,0 +1,14 @@
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/bin/Debug/netcoreapp3.1/AU-Accolite.deps.json
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/bin/Debug/netcoreapp3.1/AU-Accolite.runtimeconfig.json
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/bin/Debug/netcoreapp3.1/AU-Accolite.runtimeconfig.dev.json
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/bin/Debug/netcoreapp3.1/AU-Accolite.dll
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/bin/Debug/netcoreapp3.1/AU-Accolite.pdb
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.csprojAssemblyReference.cache
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.AssemblyInfoInputs.cache
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.AssemblyInfo.cs
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.csproj.CoreCompileInputs.cache
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.dll
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.pdb
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.genruntimeconfig.cache
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/bin/Debug/netcoreapp3.1/log4net.dll
+/Users/mohan/Projects/AU-Accolite/AU-Accolite/obj/Debug/netcoreapp3.1/AU-Accolite.csproj.CopyComplete

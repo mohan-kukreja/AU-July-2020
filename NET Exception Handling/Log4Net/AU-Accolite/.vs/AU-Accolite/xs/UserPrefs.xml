@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{2314C6F6-2263-4400-977B-C26F768D0BDF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AU-Accolite/Program.cs">
+    <Files>
+      <File FileName="AU-Accolite/Program.cs" Line="11" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AU-Accolite" expanded="True">
+            <Node name="AU-Accolite" expanded="True">
+              <Node name="log4net" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AU-Accolite PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
