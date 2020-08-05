@@ -43,7 +43,7 @@ namespace NET_Delegates
         public void Display_Department()
         {
             Console.WriteLine("Displaying department\n");
-            ad = new SqlDataAdapter("Select * from Department", conn);
+            ad = new SqlDataAdapter("Select * from dept", conn);
             ds = new DataSet();
             ad.Fill(ds);
             if (ds != null)
@@ -66,7 +66,7 @@ namespace NET_Delegates
             string deptid = Console.ReadLine();
             Console.WriteLine("Enter Department Name ");
             string deptname = Console.ReadLine();
-            string sqlQuery = "execute insert_into_department " + "'" + deptid + "'" + "," + "'" + deptname + "'" + ";";
+            string sqlQuery = "execute Insert_Dept " + "'" + deptid + "'" + "," + "'" + deptname + "'" + ";";
            
             SqlCommand command = new SqlCommand(sqlQuery, conn);
             Console.WriteLine("Data Successfully Inserted\n");
