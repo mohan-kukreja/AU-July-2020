@@ -1,0 +1,26 @@
+
+Enter Department ID 
+1
+Enter Department Name 
+Electrical
+Data Successfully Inserted
+
+Displaying department 
+
+Department ID: 1 Department Name:Electrical
+
+Employee Table
+
+Employee ID: 1 Employee Name:Mohan Kukreja Department ID: 1
+Employee ID: 2 Employee Name:Vasu Kukreja Department ID: 2
+
+Enter Employee ID of the record to be deleted:
+2
+
+Data Deleted Successfully
+
+Employee Table
+
+Employee ID: 1 Employee Name:Mohan Kukreja Department ID: 1
+
+
